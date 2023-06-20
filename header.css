@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
   font-family: Montserrat,Arial,sans-serif;
+  
+}
+html{
+    background-color: #FAFAFA;
 }
 
 /* header style section */

@@ -1,7 +1,7 @@
 /* below content style section */
 .below-container{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 19%;
+    padding-right: 19%;
     width: 100%;
 }
 
@@ -11,9 +11,25 @@
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+   
     
 
 }
+.section5 h1{
+margin: 40px 0;
+    text-align: center;
+   
+    
+
+}
+.section5 .all-post p{
+   
+        text-align: center;
+        margin-bottom: 60px;
+       
+        
+    
+    }
 
 
 .section5 .content{
@@ -22,73 +38,102 @@
     height: 700px;
     flex-wrap: wrap;
     margin-top: 15px;
-    justify-content: space-around;
-    
-}
+    justify-content: space-between;
+ 
+    }
 
 .section5 .content .left-content{
-    width: 45%;
+    width: 49%;
     height: auto;
-   
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 1%;
-}
-.left-content .top{
-    width: 100%;
-    height: 50%;
-  
     
-}
-.left-content .top img{
-    width: 100%;
-    height: 100%;
    
     
 }
+
+.left-content .top{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  
+    }
+.content .left-content:hover .top  {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+ }
+.left-content .top img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+   
+    }
+.content .left-content:hover .top img {
+    scale: 1.1;
+    transition: all 0.3s ease;
+ }
+
 
 .left-content .bottom{
 width: 100%;
 height: 50%;
-
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
 padding: 30px 20px;
+position: relative;
+transition: all 0.3s ease;
 }
-
+.content .left-content:hover .bottom  {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease;
+ }
 
 .left-content .bottom .topic{
-    
-   text-align: left;
-  margin: 5px 0;
-    
+   
+    text-align: left;
+    margin-bottom: 20px;
+    opacity: 1;
+    transition: all 0.3s ease;
+ }
+.content .left-content:hover .bottom .topic {
+   margin-top: -3%;
+   opacity: 0;
+   transition: all 0.3s ease;
 }
 
 .left-content .bottom .title{
-    
+   
     text-align: left;
-    margin: 10px 0;
+   margin-top: 40px;
    
 } 
 .left-content .bottom .text{
     
     text-align: left;
-    margin: 5px 0;
-   
+    margin-top: 10px;
 } 
-.left-content .bottom button{
-    
-    text-align: left;
-    margin: 5px 0;
+.left-content .bottom .more p{
+    position: absolute;
+    margin-top:30%;
+    opacity: 0;
+    transition: all 0.3s ease;
    
-} 
-
+}
+.content .left-content:hover .bottom .more p {
+    margin-top:20%;
+    opacity: 1;
+    transition: all 0.3s ease;
+    }
 
 .section5 .content .right-content{
-    width: 45%;
+    width: 49%;
     height: auto;
    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 .right-content .top-content{
     width: 100%;
@@ -96,46 +141,161 @@ padding: 30px 20px;
    
     display: flex;
     flex-wrap: wrap;
-    padding: 1%;
+    padding-bottom: 10px;
+   
 }
 .top-content .left{
     width: 40%;
     height: 100%;
+    overflow:hidden;
+   
 }
 .top-content .left img{
     width: 100%;
     height: 100%;
+    transition: all 0.3s ease;
 }
-
+.top-content:hover .left img{
+    scale: 1.1;
+    transition: all 0.3s ease;
+}
 
 .top-content .right{
+    padding: 30px 20px;
     width: 60%;
     height: 100%;
-    background-color: rgb(145, 37, 11);
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    
 }
+ .top-content .right .topic{
+
+    text-align: left;
+    margin-bottom: 20px;
+    opacity: 1;
+    transition: all 0.3s ease;
+  
+}
+.top-content:hover .right .topic{
+
+    text-align: left;
+    margin-bottom: 20px;
+    opacity: 0;
+    margin-top: -3%;
+    transition: all 0.3s ease;
+ 
+}
+
+.top-content .right .title{
+
+    text-align: left;
+   margin-top: 40px;
+  
+}
+.top-content .right .text{
+
+    text-align: left;
+    margin-top: 10px;
+  
+}
+.top-content .right .more p{
+
+    position: absolute;
+    margin-top:25%;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.top-content:hover .right .more p{
+
+    margin-top:15%;
+    opacity: 1;
+    transition: all 0.3s ease;
+ 
+}
+
+
+
 .right-content .bottom-content{
     width: 100%;
     height: 50%;
-  
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    padding: 1%;
+  
+    
 }
 .bottom-content .left{
     width: 40%;
     height: 100%;
+    overflow: hidden;
     
 }
 .bottom-content .left img{
     width: 100%;
     height: 100%;
+    transition: all 0.3s ease;
    
+}
+.bottom-content:hover .left img{
+    scale: 1.1;
+    transition: all 0.3s ease;
 }
 .bottom-content .right{
     width: 60%;
     height: 100%;
-    background-color: rgb(235, 17, 108);
+    padding: 30px 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
 }
+.bottom-content .right .topic{
+
+    text-align: left;
+    margin-bottom: 20px;
+    opacity: 1;
+    transition: all 0.3s ease;
+  
+}
+.bottom-content:hover .right .topic{
+
+    text-align: left;
+    margin-bottom: 20px;
+    opacity: 0;
+    margin-top: -3%;
+    transition: all 0.3s ease;
+ 
+}
+
+.bottom-content .right .title{
+
+    text-align: left;
+   margin-top: 40px;
+  
+}
+.bottom-content .right .text{
+
+    text-align: left;
+    margin-top: 10px;
+  
+}
+.bottom-content .right .more p{
+
+    position: absolute;
+    margin-top:25%;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.bottom-content:hover .right .more p{
+
+    margin-top:15%;
+    opacity: 1;
+    transition: all 0.3s ease;
+ 
+}
+
+
+
 
 
 

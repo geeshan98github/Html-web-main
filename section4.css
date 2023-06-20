@@ -1,8 +1,116 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+
+
 /* section4 styles */
 .section4{
-    background-color: rgb(245, 158, 60);
+   
     width: 100%;
-    height: 600px;
+    height: 700px;
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    
 }
+.section4 .image{
+   
+    width: 100%;
+    height: 468px;
+    left: 0;
+    top: 0;
+    background-image: url(S-4-1.webp);
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+   
+}
+
+.section4 .contact{
+  
+    position: absolute;
+    margin-top: -19%;
+    margin-left:28% ;
+    display: flex;
+    width: 44%;
+    height: 580px;
+    justify-content: space-between;
+   
+}
+.section4 .contact .left-content{
+  
+   width: 55%;
+   background-color: white;
+   height: 100%;
+   border-radius: 1.5%;
+   padding: 30px 30px;
+      
+   }
+   .section4 .contact .left-content .topic{
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-weight: 600;
+font-size: 36px;
+color: #323232;
+    
+
+       
+    }
+   .left-content .form-box{
+    margin-top: 20px;
+   }
+   .left-content .form-box input{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 35px;
+    padding: 1px 10px;
+   }
+   .left-content .form-box textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    
+    padding: 1px 5px;
+   }
+   .left-content .form-box p{
+    font-size: 13px;
+    margin-bottom: 10px;
+    
+    
+   }
+  
+   .section4 .contact .right-content{
+  
+    width: 45%;
+   height: 100%;
+    padding: 20px 0;
+    
+       
+    }
+    .section4 .contact .right-content .text{
+        color: white;
+        width: 100%;
+        background-color:#1865C7;
+       height: 100%;
+        border-radius: 1%;
+      
+        padding: 130px 47px;
+        
+           
+        }
+        .right-content .text h4{
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 24px;
+        }
+        .right-content .text ol li p {
+            margin-bottom: 30px;
+            text-align: start;
+            font-size: 14px;
+            margin-left: 10px;
+           
+        }
+
+       
+
+
 
